@@ -13,11 +13,11 @@ export default function SocMarketPage() {
 
         <p className="text-base md:text-lg text-gray-700 mb-10 leading-relaxed">
           SocMarket est un projet développé durant mon stage de deuxième année
-          de BTS SIO SLAM. L'application permet aux employés d’une banque de
-          publier et consulter des annonces d’objets à vendre. Aucune
-          transaction n’est réalisée sur la plateforme. Le projet repose sur un
-          backend Java/Spring Boot, une base PostgreSQL, et un frontend moderne
-          en Next.js.
+          de BTS SIO SLAM. L&apos;application permet aux employés d&apos;une
+          banque de publier et consulter des annonces d&apos;objets à vendre.
+          Aucune transaction n&apos;est réalisée sur la plateforme. Le projet
+          repose sur un backend Java/Spring Boot, une base PostgreSQL, et un
+          frontend moderne en Next.js.
         </p>
 
         {/* Cahier des charges */}
@@ -150,9 +150,9 @@ export default function SocMarketPage() {
                 <div className="text-gray-700 mb-4">
                   Pour mener à bien ce projet, j’ai dû apprendre à utiliser
                   plusieurs technologies :<strong> Java 17</strong>,{" "}
-                  <strong>Spring Boot 3.1</strong>, <strong>PostgreSQL</strong>,{" "}
-                  <strong>JWT</strong> pour la sécurité, et{" "}
-                  <strong>Next.js avec TypeScript</strong> pour le frontend.
+                  <strong>Spring Boot 3.1</strong>, <strong>PostgreSQL</strong>,
+                  <strong> JWT</strong> pour la sécurité, et
+                  <strong> Next.js avec TypeScript</strong> pour le frontend.
                 </div>
                 <div className="text-gray-700 mb-2">
                   Pour cela, j’ai étudié les documentations officielles :
@@ -220,7 +220,7 @@ export default function SocMarketPage() {
                 </ul>
               </>
             ),
-            image: null, // pas d'image ici
+            image: null,
           },
         ].map((competence, index) => (
           <div
@@ -230,11 +230,7 @@ export default function SocMarketPage() {
             <h2 className="text-2xl font-semibold text-blue-500 mb-4">
               ✅ {competence.title}
             </h2>
-            {typeof competence.description === "string" ? (
-              <p className="text-gray-700 mb-4">{competence.description}</p>
-            ) : (
-              <div className="text-gray-700 mb-4">{competence.description}</div>
-            )}
+            <div className="text-gray-700 mb-4">{competence.description}</div>
             {competence.image && (
               <Image
                 src={competence.image}

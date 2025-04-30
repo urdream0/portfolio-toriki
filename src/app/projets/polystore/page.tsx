@@ -17,7 +17,7 @@ export default function PolystorePage() {
             SIO SLAM. L’objectif : proposer une plateforme de vente de produits
             locaux. Le projet suit une architecture MVC codée en PHP, avec une
             base de données MySQL, et a été conteneurisé avec Docker. Le travail
-            en équipe s’est organisé via un tableau GitHub Kanban.
+            en équipe s&apos;est organisé via un tableau GitHub Kanban.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function PolystorePage() {
             title: "Gérer le patrimoine informatique",
             description: (
               <>
-                J'ai conçu et développé la base de données relationnelle du
+                J&apos;ai conçu et développé la base de données relationnelle du
                 projet Polystore.
                 <br />
                 <br />
@@ -67,8 +67,8 @@ export default function PolystorePage() {
                 de liaison <strong>detail_commande</strong>.<br />
                 <br />
                 Ce schéma permet de gérer efficacement les ventes, les stocks,
-                et l'organisation des produits, tout en respectant les
-                contraintes d'intégrité relationnelle.
+                et l&apos;organisation des produits, tout en respectant les
+                contraintes d&apos;intégrité relationnelle.
               </>
             ),
             image: "/images/bddPolystore.png",
