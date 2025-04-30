@@ -56,14 +56,14 @@ export default function GlidePage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Image
-              src="/images/glide-capture1.png"
+              src="/images/investor.png"
               alt="Interface Glide"
               width={1200}
               height={700}
               className="w-full object-contain max-h-[500px] rounded-xl border border-gray-300"
             />
             <Image
-              src="/images/glide-capture2.png"
+              src="/images/bddinvestor.png"
               alt="Base Google Sheets"
               width={1200}
               height={700}
