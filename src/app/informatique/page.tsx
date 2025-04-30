@@ -5,6 +5,7 @@ import VeilleTechno from "./components/VeilleTechnoSection";
 import CodeIntro from "./components/CodeIntro";
 import InformatiqueIntro from "./components/InformatiqueIntro";
 import Footer from "../components/Footer";
+import TableauSynthesePdf from "./components/TableauSynthesePdf";
 
 export default function InformatiquePage() {
   return (
@@ -31,6 +32,11 @@ export default function InformatiquePage() {
         {/* Veille Technologique */}
         <section id="veille" className="py-24">
           <VeilleTechno />
+        </section>
+        
+        {/* Tableau de synthèse */}
+        <section id="tableau" className="py-12 bg-white">
+          <TableauSynthesePdf />
         </section>
         <Footer />
       </main>

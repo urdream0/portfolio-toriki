@@ -25,7 +25,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 0.6, ease: "easeInOut" }}
         >
-          Salut, je suis{" "}
+          Bonjour, je suis{" "}
           <span className="text-blue-600">
             <Typewriter
               words={["Toriki TEMATAUA"]}
@@ -57,7 +57,7 @@ export default function HeroSection() {
           transition={{ delay: 1, duration: 0.6, ease: "easeInOut" }}
         >
           <a
-            href="/cv.pdf"
+            href="/cv/MonCV.pdf"
             download
             className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
           >
